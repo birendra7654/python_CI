@@ -15,7 +15,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'sudo python test.py'
+        sh 'sudo python test_calculator.py'
       }   
     }
   }
