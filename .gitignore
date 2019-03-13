@@ -1,0 +1,8 @@
+*.pyc
+build
+dist
+*.egg*
+__pycache__
+envname
+*.DS_Store
+.coverage
