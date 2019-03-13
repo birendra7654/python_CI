@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'sudo um -y update'
+        sh 'sudo yum -y update'
         sh 'sudo yum -y install python-pip'
         sh 'sudo pip install -r requirements.txt'
       }
