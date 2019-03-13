@@ -1,31 +1,27 @@
-# CloudServerjustifi
+# CI example of python with JENKINS
 Documentation
 ===
-    Documentation about sanctum Justfi codebase can be found here:
-    http://sanctum.com/
+    Documentation about ***
+    https://realpython.com/python-continuous-integration/?fbclid=IwAR1jJLLN3tpMgfRw6RgocEdvPpBGpQAx8cpXIdNFsevrXZ8ERzuzQ7fHN6A
 
-Steps to setup Justifi
+Steps to setup python with JENKINS
 ===
    Latest version: 1.0.0
 
-1) Clone the adwyze assignment repo:
+1) Clone the python JENKINS  assignment repo:
 
-        git clone https://birendra7654@bitbucket.org/birendra7654/cloudserverjustifi.git
+        https://github.com/birendra7654/python_CI.git
 
 2) Create a virtual environment and install requirements
 
         # create virtual env in python 3
         virtualenv -p python3 envname
         source envname/bin/activate
-        cd cloudserverjustifi
+        cd python_CI
         pip install -r requirements.txt
 
-4) Run the server
+4) Simple Calculator library and should zen of python rule
+	flake8 --statistics
 
-        python manage.py run
-            OR
-        gunicorn -w 4 -b 0.0.0.0:5000 manage:app
-
-5) Follow this URl in Browser to see all API:
-
-        http://127.0.0.1:5000/docs
+5) Run unit test cases
+	pytest -v --cov
