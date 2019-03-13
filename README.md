@@ -24,6 +24,6 @@ Steps to setup python with JENKINS
 
 	flake8 --statistics
 
-5) Run unit test cases
+5) Run unit test cases.
 
 	pytest -v --cov
