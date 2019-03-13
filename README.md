@@ -21,7 +21,9 @@ Steps to setup python with JENKINS
         pip install -r requirements.txt
 
 4) Simple Calculator library and should zen of python rule
+
 	flake8 --statistics
 
 5) Run unit test cases
+
 	pytest -v --cov
