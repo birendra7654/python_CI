@@ -3,8 +3,6 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'virtualenv -p python3 envname'
-        sh 'source envname/bin/activate'
         sh 'pip install -r requirements.txt'
       }
     }
